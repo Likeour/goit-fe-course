@@ -3,104 +3,104 @@
 }*/
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container_layout {
-    width: 901px;
-    margin: auto;
+  width: 901px;
+  margin: auto;
 }
 
 .main-menu {
-    margin-left: 60px;
-    margin-right: 90px;
-    /*margin-bottom: 60px;*/
-    overflow: hidden;
-    padding-top: 76px;
-    text-align: center;
+  margin-left: 60px;
+  margin-right: 90px;
+  padding-top: 76px;
+  text-align: center;
+  list-style-type: none;
 }
 
 .main-menu-link {
-    text-align: center;
-    font-family: Playfair Display;
-    list-style-type: none;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 14px;
-    color: #626262;
-    margin-left: 31px;
-    margin-right: 24px;
-    text-align: center;
+  text-align: center;
+  font-family: Playfair Display;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #626262;
+  margin: 0px 24px 0px 31px;
 }
 
 .main-menu-link:hover {
-    color: #03a9f4;
+  color: #03a9f4;
 }
 
 .img_block {
-    width: 421px;
-    height: 281px;
-    overflow: hidden;
+  width: 421px;
+  height: 281px;
+  overflow: hidden;
 }
 
-.img {
-    overflow: hidden;
+.picture {
+  overflow: hidden;
 }
 
 .list {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .list-item {
-    box-sizing: border-box;
-    display: inline-block;
-    box-sizing: content-box;
-    overflow: hidden;
-    list-style-type: none;
-    width: 421px;
-    margin-top: 90px;
+  box-sizing: border-box;
+  display: inline-block;
+  box-sizing: content-box;
+  overflow: hidden;
+  list-style-type: none;
+  width: 421px;
+  margin-top: 90px;
 }
 
 .list-item:nth-child(2n) {
-    margin-left: 54px;
-}
-.list-item:last-child{
-    /*margin-bottom: 44px;*/
+  margin-left: 54px;
 }
 
-.p {
-    font-family: Ubuntu;
-    color: #b4ad9e;
-    font-size: 14px;
-    margin-top: 28px;
-    margin-bottom: 30px;
+.text_head {
+  font-family: Ubuntu;
+  color: #b4ad9e;
+  font-size: 14px;
+  margin-top: 28px;
+  margin-bottom: 30px;
 }
 
-.h2 {
-    font-family: Playfair Display;
-    color: #626262;
-    font-weight: normal;
-    margin-bottom: 20px;
+.title_block {
+  font-family: Playfair Display;
+  color: #626262;
+  font-weight: normal;
+  margin-bottom: 20px;
 }
 
 .text {
-    font-family: Playfair Display;
-    color: #626262;
+  font-family: Playfair Display;
+  color: #626262;
 }
 
-.button_box{
-    text-align: center;
+.button_box {
+  text-align: center;
 }
+
 .button_load {
-    margin: 60px;
-    padding: 20px;
+  margin: 60px;
+  padding: 20px;
+  display: block;
+  margin: 60px auto 60px auto;
+  /*margin-top:30px;
+  margin-bottom: 30px;*/
 }
+
 .button_link {
-    list-style-type: none;
-    color: #626262;
-    font-family: Playfair Display;
-    font-size: 20px;
-    text-decoration: none;
-    
+  list-style-type: none;
+  color: #626262;
+  font-family: Playfair Display;
+  font-size: 20px;
+  text-decoration: none;
+  
+  /*сделать  кнопку по центру*/
 }
