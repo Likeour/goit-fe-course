@@ -252,6 +252,7 @@ body {
 
 .buttons {
   position: absolute;
+  display: inline-block;
   top: 0px;
   left: 0px;
   height: 282px;
@@ -286,6 +287,7 @@ body {
 .button_like,
 .button_mix,
 .button_time {
+  display: inline-block;
   background-size: contain;
   background-position: center;
   background-size: 26px 23px;
@@ -293,10 +295,22 @@ body {
   background-color: transparent;
   border: 1px solid #ffffff;
   width: 50px;
+
   height: 50px;
-  display: inline-block;
-  margin-bottom: 4px;
-  margin-top: 91px;
+
+  margin-top: 40%;
+
+  /*margin-top: 91px;*/
+}
+.button_like,
+.button_mix,
+.button_time:not(:nth-of-type(3n)) {
+  margin-right: 4px;
+}
+
+.button_buy,
+.button_like{
+  right: 50px;
 }
 
 .button_like:hover {
@@ -317,17 +331,20 @@ body {
 
 .button_like,
 .button_mix,
-.button_time:not(:nth-of-type(3n)) {
-  margin-right: 4px;
-}
-
-.button_like,
-.button_mix,
 .button_time,
 .button_buy {
-  top: 50%;
+  display: inline-block;
+  /*top: 50%;
   left: 50%;
   transform: translate(-50px, -50px);
+  /*
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;*/
 }
 
 .button_buy {
