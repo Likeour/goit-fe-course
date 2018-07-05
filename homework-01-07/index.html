@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Homework7</title>
 </head>
+
 <body>
-    
+    <header class="page_header">
+        <a href="#" class="logo">Golden</a>
+        <nav class="menu_navigation">
+            <ul class="menu clearfix">
+                <li class="menu-link">
+                    <a href="#Home" class="menu-somelink">Home</a>
+                </li>
+                <li class="menu-link">
+                    <a href="#Services" class="menu-somelink">Services</a>
+                </li>
+                <li class="menu-link">
+                    <a href="#Portfolio" class="menu-somelink">Portfolio</a>
+                </li>
+                <li class="menu-link">
+                    <a href="#About" class="menu-somelink">About</a>
+                </li>
+                <li class="menu-link">
+                    <a href="#Contact" class="menu-somelink">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main_services">
+        <div class="titles">
+            <p class="title">services</p>
+            <p class="subtitle">Proin iaculis purus consequat sem cure.</p>
+        </div>
+        <div class="description_services">
+            <ul class="services_list">
+                <li class="list_item">
+                    <div class="div_for_img decoration_img1 ">
+                        <span class=" visually-hidden">Commerce</span>
+                    </div>
+                    <p class="name_service">E-Commerce</p>
+                    <p class="text_service">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
+                        odio in tincidunt.</p>
+                </li>
+                <li class="list_item">
+                    <div class="div_for_img decoration_img2 ">
+                        <span class="visually-hidden">Web</span>
+                    </div>
+                    <p class="name_service">Responsive Web</p>
+                    <p class="text_service">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
+                        odio in tincidunt.</p>
+                </li>
+                <li class="list_item">
+                    <div class="div_for_img decoration_img3">
+                        <span class="visually-hidden">Security</span>
+                    </div>
+                    <p class="name_service">Web Security</p>
+                    <p class="text_service">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
+                        odio in tincidunt.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section_with_form">
+        <div class="titles_section_with_form">
+            <p class="title_form">contact us</p>
+            <p class="subtitle">Proin iaculis purus consequat sem cure.</p>
+        </div>
+        <form class="input_forms" action="#">
+            <div class="div_for_input_forms">
+                <div class="div_input1">
+                    <input type="text" placeholder="YOUR NAME *" name="name" required class="normal_form">
+                    <input type="email" placeholder="YOUR E-MAIL *" name="email" required class="normal_form">
+                    <input type="text" placeholder="SUBJECT *" name="subject" class="normal_form">
+                </div>
+                <textarea type="text" placeholder="YOUR MESSAGE *" name="comments" required class="message_form"></textarea>
+            </div>
+            <div class="div_button">
+                <button class="button_send" type="submit">send message</button>
+            </div>
+        </form>
+    </section>
 </body>
+
 </html>
