@@ -347,3 +347,11 @@
     width: 933px;
     margin-bottom: 25px;
 }
+
+.required_form:valid{
+    outline-color: green;
+}
+
+.required_form:invalid{
+    outline-color: red;
+}
