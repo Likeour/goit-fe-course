@@ -14,7 +14,7 @@
     overflow: hidden;
 }
 
-}
+
 
 /* montserrat-regular - latin */
 
@@ -142,6 +142,11 @@
     text-align: center;
 }
 
+.wrap_for_button{
+    width: 280px;
+    margin:0 auto;
+}
+
 .find_friend_button {
     height: 40px;
     border: none;
@@ -152,7 +157,6 @@
     font-size: 14px;
     color: rgba(255, 255, 255, 255);
     text-align: center;
-    outline: none;
 }
 
 .title_second_section {
@@ -249,7 +253,12 @@
     outline: none;
 }
 
-@media (min-width: 320px) {
+.wrap_see_other_button{
+    width: 280px;
+    margin: 0 auto;
+}
+
+@media (min-width:320px) and (max-width: 748px) {
     .first_section {
         width: 322px;
         height: 542px;
@@ -280,10 +289,7 @@
     .find_friend_button {
         width: 280px;
     }
-    .wrap_for_button {
-        margin: 0 auto;
-        text-align: center;
-    }
+
     .second_section {
         width: 322px;
     }
@@ -303,7 +309,7 @@
     }
 }
 
-@media (min-width:748px) {
+@media (min-width:748px) and (max-width:960px) {
     .first_section {
         width: 748px;
         height: 700px;
@@ -348,6 +354,10 @@
     .find_friend_button {
         width: 226px;
     }
+
+    .wrap_for_button{
+        width: 226px;
+    }
     .second_section {
         width: 748px;
     }
@@ -366,12 +376,18 @@
     .see_other_button{
         width: 193px;
     }
+
+    .wrap_see_other_button{
+        width: 193px;
+    }
 }
 
 
-@media (min-width:1440px) {
+@media  (min-width:960px){
     .first_section {
-        width: 1440px;
+        min-width: 960px;
+        max-width: 1440px;
+        width: 100%;
         height: 700px;
         background-image: url(../img/desktop/Vector\ Smart\ Object@1X\ \(1\).png);
         background-position: center;
@@ -414,6 +430,11 @@
     .find_friend_button {
         width: 225px;
     }
+
+    .wrap_for_button{
+        margin: 0 auto;
+        width: 225px;
+    }
     .second_section {
         width: 940px;
         margin: 0 auto;
@@ -429,6 +450,11 @@
     .list_items_card {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .wrap_see_other_button{
+        width: 192px;
+        margin: 0 auto;
     }
 
     .see_other_button{
