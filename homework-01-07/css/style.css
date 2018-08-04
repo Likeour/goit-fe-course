@@ -348,10 +348,12 @@
     margin-bottom: 25px;
 }
 
-.required_form:valid{
-    outline-color: green;
+.required_form:invalid{
+    outline:2px solid red;
 }
 
-.required_form:invalid{
-    outline-color: red;
+
+.required_form:valid{
+    outline:2px solid green;
 }
+
