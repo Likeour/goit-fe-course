@@ -104,7 +104,7 @@
 
 .team__overlay {
     position: absolute;
-    width: 100%;
+    width: 1201px;
     height: 473px;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(239, 139, 138, 0.9)), to(rgba(237, 213, 135, 0.9)));
     background: -webkit-linear-gradient(rgba(239, 139, 138, 0.9), rgba(237, 213, 135, 0.9));
