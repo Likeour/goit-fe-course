@@ -1,0 +1,109 @@
+.first_section {
+    margin: 0 auto;
+    width: 1201px;
+    height: 1000px;
+}
+
+.wrapper_first_section {
+    margin: 0 auto;
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 45px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient( to top, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/Layer15@1X.png');
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .wrapper_first_section {
+        background-image: linear-gradient( to top, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/Layer15@2X.png');
+    }
+}
+
+.first_section_article {
+    width: 821px;
+    margin: 0 auto;
+}
+
+.first_section_article__subtitle {
+    font-family: 'Kaushan Script', AdobeInvisFont, MyriadPro;
+    font-size: 72px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+}
+
+.first_section_article__title {
+    font-family: Montserrat, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 150px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 115px;
+}
+
+.first_section_article__button {
+    width: 160px;
+    height: 40px;
+    font-family: Montserrat, AdobeInvisFont, MyriadPro-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 255);
+    outline: none;
+}
+
+.wrap_for_button {
+    margin: 0 auto;
+    width: 160px;
+}
+
+.first_section_article__title,
+.first_section_article__button {
+    color: rgba(255, 255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.second_section_article__subtitle,
+.second_section_article__subtitle2 {
+    font-family: 'Kaushan Script', AdobeInvisFont, MyriadPro;
+    font-size: 24px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.second_section_article__title,
+.second_section_article__title2 {
+    font-family: Montserrat, AdobeInvisFont, MyriadPro;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+}
+
+.second_section_article__title::after,
+.second_section_article__title2::after {
+    content: " ";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+
+.second_section_paragraph{
+    width: 954px;
+    margin: 0 auto;
+}
+.second_section_some_text_paragraph {
+    font-family: Roboto, AdobeInvisFont, MyriadPro;
+    font-size: 15px;
+    color: rgba(153, 153, 153, 255);
+    text-align: center;
+    margin-bottom: 75px;
+}
