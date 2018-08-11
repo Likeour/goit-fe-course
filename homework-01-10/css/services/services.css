@@ -1,32 +1,47 @@
 .service__list {
     width: 1182px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     list-style: none;
     margin: 0 auto;
 }
 
-
-.wrap_service__list{
+.wrap_service__list {
     margin-bottom: 76px;
 }
 
 .service__item {
     width: 330px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 73px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
-
-.service__wrap_text{
+.service__wrap_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 67px;
     width: 270px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
+
 .service__name_work {
     font-family: Montserrat, AdobeInvisFont, MyriadPro;
     font-size: 14px;
@@ -48,7 +63,6 @@
     height: 70px;
     background-repeat: no-repeat;
 }
-
 
 .pic1 {
     background-image: url(../../img/svg/service/ALARM.svg);

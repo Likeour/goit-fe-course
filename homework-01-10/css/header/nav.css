@@ -1,18 +1,13 @@
 .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
     width: 691px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
-
-/*.nav__item {
-    text-decoration: none;
-    font-family: Montserrat, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 14px;
-    font-weight: 400px;
-    color: rgba(252, 227, 138, 255);
-    text-align: center;
-}*/
 
 .nav__link {
     text-decoration: none;
@@ -44,15 +39,17 @@
     -webkit-transition: 100ms;
 }
 
-
-.nav__icon:hover{
-    fill :  rgba(252, 227, 138, 255);
+.nav__icon:hover {
+    fill: rgba(252, 227, 138, 255);
     -webkit-transition: 100ms;
 }
 
-.nav__svg{
+.nav__svg {
     width: 91px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
-

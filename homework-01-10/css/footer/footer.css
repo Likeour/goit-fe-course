@@ -1,7 +1,13 @@
 .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     height: 63px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     border-top: 1px solid #e5e5e5;
 }
@@ -45,6 +51,8 @@
 }
 
 .footer__wrap_for_area_subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     /*border: 0px;*/
 }
