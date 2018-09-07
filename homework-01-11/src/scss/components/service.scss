@@ -1,0 +1,89 @@
+.service__list {
+  width: 1182px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.wrap_service__list {
+  margin-bottom: 76px;
+}
+
+.service__item {
+  width: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 73px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.service__wrap_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 67px;
+  width: 270px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.service__name_work {
+  font-family: Montserrat, AdobeInvisFont, MyriadPro;
+  font-size: 14px;
+  color: rgba(51, 51, 51, 255);
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.service__description_work {
+  font-family: Roboto, AdobeInvisFont, MyriadPro;
+  font-size: 15px;
+  color: rgba(153, 153, 153, 255);
+  text-align: left;
+}
+
+.service__pic_about_text {
+  width: 34px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+.pic1 {
+  background-image: url(../../img/svg/service/ALARM.svg);
+}
+
+.pic2 {
+  background-image: url(../../img/svg/service/LINE\ GRAPH.svg);
+}
+
+.pic3 {
+  background-image: url(../../img/svg/service/COMPUTER\ _\ OK.svg);
+}
+
+.pic4 {
+  background-image: url(../../img/svg/service/BOOK\ 2.svg);
+}
+
+.pic5 {
+  background-image: url(../../img/svg/service/HOME.svg);
+}
+
+.pic6 {
+  background-image: url(../../img/svg/service/IMAGE.svg);
+}

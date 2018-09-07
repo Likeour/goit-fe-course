@@ -1,0 +1,133 @@
+.second_section__wrap_for__team_list {
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.team__list {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 1201px;
+  list-style: none;
+}
+
+.team__item {
+  width: 381px;
+}
+
+.team__name_person {
+  font-family: Montserrat, AdobeInvisFont, MyriadPro;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(51, 51, 51, 255);
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.team__position {
+  font-family: Roboto, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 255);
+  text-align: center;
+}
+
+.team__contact_buttons {
+  width: 224px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact_buttons__facebook,
+.contact_buttons__twitter,
+.contact_buttons__photo,
+.contact_buttons__insta {
+  height: 56px;
+  width: 56px;
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  outline: none;
+  position: relative;
+}
+
+.contact__icon {
+  position: absolute;
+  -webkit-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+}
+
+.contact_buttons__facebook:hover .contact__icon {
+  fill: #ffffff;
+}
+
+.contact_buttons__facebook,
+.contact_buttons__twitter,
+.contact_buttons__photo {
+  border-right: 1px solid #f38181;
+}
+
+.contact_buttons__facebook:hover,
+.contact_buttons__twitter:hover,
+.contact_buttons__photo:hover,
+.contact_buttons__insta:hover {
+  background-color: #f38181;
+  -webkit-transition: 100ms;
+}
+
+.contact_buttons__facebook:hover .contact_icon {
+  fill: #ffffff;
+}
+
+.contact_icon_svg:hover {
+  fill: #ffffff;
+}
+
+.team__wrap_for_img_overlay:hover {
+  -webkit-transform: translate(-10px, -10px);
+  -ms-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+  -webkit-box-shadow: 10px 10px #95e1d3;
+  box-shadow: 10px 10px #95e1d3;
+  -webkit-transition: 200ms;
+}
+
+.team__overlay {
+  position: absolute;
+  width: 383px;
+  height: 473px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(239, 139, 138, 0.9)), to(rgba(237, 213, 135, 0.9)));
+  background: -webkit-linear-gradient(rgba(239, 139, 138, 0.9), rgba(237, 213, 135, 0.9));
+  background: -o-linear-gradient(rgba(239, 139, 138, 0.9), rgba(237, 213, 135, 0.9));
+  background: linear-gradient(rgba(239, 139, 138, 0.9), rgba(237, 213, 135, 0.9));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.team__wrap_for_img_overlay {
+  width: 383px;
+  height: 473px;
+  margin-bottom: 26px;
+}
+
+.team__wrap_for_animation:hover .team__overlay {
+  opacity: 1;
+}
